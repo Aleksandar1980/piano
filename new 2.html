@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>proba</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="div1">
+Moj piano
+</div>
+<center>
+ <button onclick="playAudio(c)" type="button">C</button>
+ <button onclick="playAudio(d)" type="button">D</button>
+ <button onclick="playAudio(e)" type="button">E</button>
+ <button onclick="playAudio(f)" type="button">F</button>
+ <button onclick="playAudio(g)" type="button">G</button>
+ <button onclick="playAudio(a)" type="button">A</button>
+ <button onclick="playAudio(h)" type="button">H</button>
+ <button onclick="playAudio(coct)" type="button">C</button>
+ </center>
+ <audio id="c">
+  <source src="C.wav" type="audio/wav">
+  </audio>
+  <audio id="d">
+   <source src="D.wav" type="audio/wav">
+   </audio>
+ <audio id="e">
+<source src="E.wav" type="audio/wav">
+  </audio>
+  <audio id="f">
+<source src="F.wav" type="audio/wav">
+  </audio>
+  <audio id="g">
+<source src="G.wav" type="audio/wav">
+  </audio>
+  <audio id="a">
+<source src="A.wav" type="audio/wav">
+  </audio>
+  <audio id="h">
+<source src="H.wav" type="audio/wav">
+  </audio>
+  <audio id="coct">
+<source src="C-oct.wav" type="audio/wav">
+  </audio>
+  
+  <script>
+  var c=document.getElementById("c");
+    function playAudio(c) {
+	c.play();
+	}
+	
+var d=document.getElementById("d");
+    function playAudio(d) {
+	d.play();
+	}
+var e=document.getElementById("e");
+    function playAudio(e) {
+	e.play();
+	}
+var f=document.getElementById("f");
+    function playAudio(f) {
+	f.play();
+	}
+var g=document.getElementById("g");
+    function playAudio(g) {
+	g.play();
+	}
+var a=document.getElementById("a");
+    function playAudio(a) {
+	a.play();
+	}
+	var h=document.getElementById("h");
+    function playAudio(h) {
+	h.play();
+	}
+	var coct=document.getElementById("coct");
+    function playAudio(coct) {
+	coct.play();
+	}
+
+  </script>
+  
+  
+</body>
+</html>
